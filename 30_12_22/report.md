@@ -14,7 +14,7 @@ Publisher из модуля image_transport является оберткой н
 
 Также было предложено Тамерлану перенести [].launch.py файл загрузки компоненты сегментации в свой проект.  
 Проекты собираются в одном workspace так что проблем с этим возникнуть не должно. По набору замечаний, предложений было оформлено issue:  
-https://gitlab.nami.local/self-driving-group/computervision/ros2_visualcortex/-/issues/49
+https://gitlab.nami.local/self-driving-group/computervision/ros2_visualcortex/-/issues/49   
 Дальнейшими шагами будет:
 - Продолжить вопрос изучения используется ли shared memory 
 - Постараться зафиксировать утечку память
