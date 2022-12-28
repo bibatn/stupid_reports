@@ -4,3 +4,4 @@ image_transport::Publisher vpub;
 rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub_;
 Publisher из модуля image_transport является оберткой над Publisherom из rclcpp с выставлением определенных параметров.
 Авторы модулей не договаривались по вопросу какие параметры должны быть выставлены для оптимальной конфигурации.
+ 
